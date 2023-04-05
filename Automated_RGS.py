@@ -16,7 +16,7 @@ print(f"Using device: {device.type}")
 #Create argument parser
 parser = argparse.ArgumentParser(description='Process input and output file paths.')
 parser.add_argument('-i', '--input', type=str, help='Input file path', required=True)
-parser.add_argument('-o', '--output', type=str, help='Output file path (include filename.xlsx)', required=True)
+parser.add_argument('-o', '--output', type=str, help='Output file name (include filename.xlsx)', required=True)
 parser.add_argument('-c;', '--confidence', type=float, help='YOLO model confidence threshold', default=0.25)
 args = parser.parse_args()
 
@@ -140,7 +140,8 @@ df = pd.DataFrame(data=[row for row in RGS],
                   columns=['Filename', 'RGS', 'Orbital Tightening', 'Ear Changes', 'Nose Flattening'])
 
 # Save the DataFrame to an Excel file
-df.to_excel(args.output, index=False)
+output_path = os.path.join('output', args.output)
+df.to_excel(output_path, index=False)
 
 print('Finished!')
 
