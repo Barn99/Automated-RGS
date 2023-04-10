@@ -5,11 +5,11 @@ Automated-RGS is a machine learning approach for the Rat Grimace Scale (RGS). Cu
 <summary>Install</summary>
 Clone repo and install requirements.txt
   
- '''
- git clonehttps://github.com/Barn99/Automated-RGS
+```
+ git clone https://github.com/Barn99/Automated-RGS
  cd Automated-RGS
  pip install -r requirements.txt
- '''
+```
 
 Vision Transformer Weights:
 https://drive.google.com/drive/folders/1Cl_5GyouX7sDLv1NUKuq_YxrrQRQMYKn?usp=sharing
