@@ -5,7 +5,7 @@ import logging
 import argparse
 import pandas as pd
 from PIL import Image
-from transformers import ViTFeatureExtractor
+from transformers import ViTImageProcessor
 from transformers import ViTForImageClassification
 from RGS_functions import load_models, Average
 
