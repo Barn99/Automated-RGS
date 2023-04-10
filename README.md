@@ -27,7 +27,7 @@ An excel file with the image name, RGS score, orbital tightening score, ear chan
 
 </details>
 
-##References
+## References
 If you use this corpus, please cite the following paper:
 
 Paper currently being written. Will be updated once published.
