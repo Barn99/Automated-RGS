@@ -11,7 +11,6 @@ Clone repo and install requirements.txt
  pip install -r requirements.txt
 ```
 
-The file size for the transformer weights are too large and need to be download seperately ([ViT Weights](https://drive.google.com/drive/folders/1Cl_5GyouX7sDLv1NUKuq_YxrrQRQMYKn?usp=sharing/).
+The file size for the transformer weights are too large and need to be download seperately ([ViT Weights](https://drive.google.com/drive/folders/1Cl_5GyouX7sDLv1NUKuq_YxrrQRQMYKn?usp=sharing/)). Download the weights and place them in the weights folder (Automated-RGS/Weights).
  
-Vision Transformer Weights:
-https://drive.google.com/drive/folders/1Cl_5GyouX7sDLv1NUKuq_YxrrQRQMYKn?usp=sharing
+
