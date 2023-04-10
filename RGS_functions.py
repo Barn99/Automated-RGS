@@ -1,7 +1,7 @@
 import os
 import logging
 import torch
-from transformers import ViTFeatureExtractor
+from transformers import ViTImageProcessor
 from transformers import ViTForImageClassification
 
 def load_models(confidence, device):
@@ -14,7 +14,7 @@ def load_models(confidence, device):
     obj_model.conf = confidence;
 
     #Load ViT Models
-    feature_extractor = ViTFeatureExtractor.from_pretrained(
+    feature_extractor = ViTImageProcessor.from_pretrained(
                 'google/vit-base-patch16-224-in21k');
 
     eye_model = ViTForImageClassification.from_pretrained(
