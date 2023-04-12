@@ -23,7 +23,8 @@ The file size for the transformer weights are too large and need to be downloade
 python Automated_RGS.py -i [File Directory with Images] -o [Output Filename].xlsx 
 ```
 Optional useage: -c (confidence): Change the confidence threshold for YOLOv5 detection model (default:0.25)
-An excel file with the image name, RGS score, orbital tightening score, ear changes score, and nose flattening score will appear in the output file.
+
+Outputs an excel file with the image name, RGS score, orbital tightening score, ear changes score, and nose flattening score.
 
 </details>
 
